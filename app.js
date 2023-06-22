@@ -1,4 +1,3 @@
-let celcius = 10;
-let fahrenheit = celcius * 1.8 + 32;
+let hot = ""
 
-console.log(fahrenheit);
+hot ? console.log('weather is hot') : console.log('weather is cold')
