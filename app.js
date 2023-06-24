@@ -1,3 +1,3 @@
 let hot = ""
 
-hot ? console.log('weather is hott') : console.log('weather is cold')
+hot ? console.log('weather is hottt') : console.log('weather is cold')
