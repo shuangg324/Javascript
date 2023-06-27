@@ -1,3 +1,15 @@
-let hot = ""
-
-hot ? console.log('weather is hottttt') : console.log('weather is cold')
+for (let i = 1; i <= 20; i++){
+    if (i % 3 == 0 && i % 5 == 0) {
+        console.log("Frontend Simplified"); 
+    }
+    else if (i % 5 == 0) {
+        console.log("Simplified");
+    }
+    else if (i % 3 == 0) {
+        console.log("Frontend");
+    }
+    else{
+        console.log(i);
+    }
+    
+}
