@@ -1,12 +1,5 @@
-// function convertCtoF(celcius){
-//     return celsius * 1.8 + 32
-// }
+let item = [20, 30, 40, 50, 100];
 
-//another way of defining a function using arrow
-const convertCtoF = (celsius) => {
-    return celsius * 1.8 + 32
-}
+let newItem = item.filter(element => element < 50);
 
-console.log(convertCtoF(0));
-console.log(convertCtoF(10));
-console.log(convertCtoF(30));
+console.log(newItem);
